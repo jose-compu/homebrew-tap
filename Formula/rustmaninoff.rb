@@ -1,28 +1,28 @@
 class Rustmaninoff < Formula
   desc "Checkov-compatible IaC scanner in a single Rust binary"
   homepage "https://github.com/jose-compu/rustmaninoff"
-  version "0.6.1"
+  version "0.6.2"
   license "Apache-2.0"
 
   on_macos do
     on_arm do
-      url "https://github.com/jose-compu/rustmaninoff/releases/download/v0.6.1/rustmaninoff-aarch64-apple-darwin.tar.gz"
-      sha256 "8803b93aea25f15735eed10c72363c611a4faf11b3b284af951d86067ba40151"
+      url "https://github.com/jose-compu/rustmaninoff/releases/download/v0.6.2/rustmaninoff-aarch64-apple-darwin.tar.gz"
+      sha256 "6b8562fbadd911b12c04f22fcb603cdaaa331b087f4eee642cc5d75c5cf40473"
     end
     on_intel do
-      url "https://github.com/jose-compu/rustmaninoff/releases/download/v0.6.1/rustmaninoff-x86_64-apple-darwin.tar.gz"
-      sha256 "e37517d80068f70ae4647b61a137d1e4726d7e352c8748c2b288b5deaf4904a6"
+      url "https://github.com/jose-compu/rustmaninoff/releases/download/v0.6.2/rustmaninoff-x86_64-apple-darwin.tar.gz"
+      sha256 "b1554d4e45b97ed73defa39325a567d06f217be07f000b43f0092fd8b45dc918"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/jose-compu/rustmaninoff/releases/download/v0.6.1/rustmaninoff-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "20afebec3a8cf51a97aff0bf711834d37c4a9c594a15c3948aa73c5c8fc45936"
+      url "https://github.com/jose-compu/rustmaninoff/releases/download/v0.6.2/rustmaninoff-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "fe177d32b0b12ef99e7887bfa5b03d933661f22fc94f8dec0f4baa2bc4822955"
     end
     on_intel do
-      url "https://github.com/jose-compu/rustmaninoff/releases/download/v0.6.1/rustmaninoff-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "0ae409b108474b8c2a7e9b2df9a265a5f27aaa81d531c9560abb767d3bbc80ec"
+      url "https://github.com/jose-compu/rustmaninoff/releases/download/v0.6.2/rustmaninoff-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f4fb3db4032a1d1d420ee44ae57e5abec132a74634bee82ec4121963c28f329a"
     end
   end
 
